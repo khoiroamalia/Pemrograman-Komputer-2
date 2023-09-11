@@ -26,17 +26,26 @@ li {
 body{
   font-family: "Avenir Next";
 }
-.header{
-  background-color:#f7f2b4;
-  height: 90px;
-}
-.main{
-  background
 li {
   list-style: none;
+  float: left;
+  padding: 33px 20px;
+}
+.header{
+  background-color:#26doc9;
+  color: #fff;
+  height: 90px;
+}
+.header-logo{
   float:left;
+  font-size: 36px;
+  padding: 20px 40px;
 }
-  .header-logo{
-    font-size: 36px
-    float:left;
+.header-list li{
+color:#ff0000;
 }
+.main{
+  background-color:#ceccf3;
+  height: 270px;
+}
+ 
