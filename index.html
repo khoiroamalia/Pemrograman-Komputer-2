@@ -1,3 +1,4 @@
+
 <div class="header">
 	<div class="header-logo">prograte</div>
 	<div classé"header-list"></div>
@@ -30,6 +31,45 @@
 		<title>prograte</title>
 		<link rel="stylesheet" href="stylesheet.css">
 	</head>
+	<body>
+            <h1>TUGAS FORM HTML PRAKTIKUM PKII - KHOIRO AMALIA</h1>
+            <form method="POST" action="response2.jsp" enctype="multipart/form-data">
+                <form>
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" name="fname"><br><br>
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="lname"><br><br>
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email"><br><br>
+                    <label for="pw">Password:</label>
+                    <input type="text" id="pw" name="pw"><br>
+                    <p>Gender: 
+                        <input type="radio" id="html" name="fav_language" value="HTML">
+                        <label for="html">Man</label>
+                        <input type="radio" id="css" name="fav_language" value="CSS">
+                        <label for="css">Woman</label><br>
+                    </p>
+                    <label for="birthday">Birth date:</label>
+                    <input type="date" id="birthday" name="birthday"><br><br>
+                    <label for="adrs">Address:</label>
+                    <input type="text" id="adrs" name="adrs"><br><br>
+                    <label for="Country">Country:
+                        <select name="Country">
+                            <option value=’CC’> Indonesia </option>
+                            <option value=’SI’> Inggris </option>
+                            <option value=’CAI’> Jepang </option>
+                        </select>
+                    </label><br><br>
+                    <label for="foto">Upload Photo: 
+                        <input type="submit" value="Choose file"> 
+                    </label><br><br>
+                    <label for="Desc">Description:
+                        <textarea name="message" rows="5" cols="40"></textarea>
+                    </label><br><br>
+                    <input type="submit" value="Submit">             
+                </form>
+            </form>
+        </body>
 </html>
 <div class="footer">
 	<div class="footer-logo">Prograte</div>
