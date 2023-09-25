@@ -24,13 +24,7 @@ li {
 }
 
 .main {
-  /* Hapuskan CSS background-color */
-  
-  /* Hapuskan CSS height */
-  
-  /* Gantikan padding atas & bawah ke 100px, dan padding kiri & kanan ke 80px */
   padding: 100px 80px;
-  
 }
 
 /* Gantikan font-size tag <h1> didalam copy-container */
