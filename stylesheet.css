@@ -1,71 +1,47 @@
-li [float: left:]
-.logo1{
-  padding-top:20px 10px;
+body {
+  font-family: "Avenir Next";
 }
-h1 {
-  color: #e6855e;
-  font-size:30px;
-  background-color:#f3f372;
-  height:80px;
-  width:200px;
+
+li {
+  list-style: none;
 }
-img {
-  height:50px;
-  width:70px;
+.header {
+  background-color: #26d0c9;
+  color: #fff;
+  height: 90px;
 }
-p {
-  color: #ff0000;
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+.header-list li {
+  float: left;
+  padding: 33px 20px;
+}
+.main {
+  background-color: #bdf7f1;
+  height: 600px;
   font-size:20px;
   font-family:"luciana grande"
 }
-li {
-  color: #444;
-}
-
-.selected{
-  color:#ff0000;
-}
-.header {
-    background-color: #26d0c9;
-    color: #fff; 
-    height: 90px; 
-  }
-  li {
-     list-style: none; 
-     float: left; 
-     padding:20px 40px;
-}
-.header-logo { 
-  float: left; 
-  font-size: 36px; 
-  padding:20px 40px;
-}
-.footer { 
+.footer {
   background-color: #2f5167;
   color: #fff;
   height: 120px;
   padding: 40px;
 }
-.footer-logo { 
-  font-size: 32px; 
+
+.footer-logo {
   float: left;
-} 
-.footer-list { 
+  font-size: 32px;
+}
+
+.footer-list {
   float: right;
 }
-.footer-list li{
-padding-bottom: 20px;
+
+.footer-list li {
+  padding-bottom: 20px;
 }
-.main{
-  padding: 100 px 80px;
-}
-.copy-container h1{
-  font-size: 140px;
-}
-.copy-container h2{
-  font-size: 60px;
-}
-.copy-container span{
-  color: #ff4a4a;
-}
-.content{
