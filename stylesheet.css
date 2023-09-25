@@ -18,6 +18,7 @@ img{
   height: 2000px;
 }
 li {
+  float: left;
   list-style: none;
   color: red;
 }
@@ -45,17 +46,18 @@ li {
   padding: 100px 80px;
 }
 
-/* Gantikan font-size tag <h1> didalam copy-container */
 .copy-container h1 {
   font-size: 140px;
 }
 
-/* Gantikan font-size tag <h2> didalam copy-container */
 .copy-container h2 {
   font-size: 60px;
 }
 
-/* Gantikan color tags <span> didalam copy-container */
+.logo{
+  padding: 20px;
+}
+
 .copy-container span {
   color: #ff4a4a;
 }
