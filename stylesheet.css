@@ -3,11 +3,27 @@ body {
 }
 h1 {
   color: red;
+  font-size: 10px;
+  font-family: serif;
+  background-color: #ddd;
+}
+p{
+  color: #0000ff;
+  font-size:40px;
+  font-family: "Avenir Next";
+  backgorund-color: #ffd800;
+}
+img{
+  width: 500px;
+  height: 2000px;
 }
 li {
   list-style: none;
+  color: red;
 }
-
+.selected{
+  color: red;
+}
 .header {
   background-color: #26d0c9;
   color: #fff;
